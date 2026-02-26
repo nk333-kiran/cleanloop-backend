@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-/api/auth / test - db
+
 app.use("/api/users", require("./routes/users"));
 app.use("/api/waste", require("./routes/waste"));
 app.use("/api/recycler", require("./routes/recycler"));
